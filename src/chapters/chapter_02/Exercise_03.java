@@ -13,7 +13,7 @@ public class Exercise_03 {
 		double numberMeters = numberFeet * 0.305;
 
 		System.out.println(numberFeet + " feet is equal to " + numberMeters + " meters.");
-		
+
 		input.close();
 	}
 
