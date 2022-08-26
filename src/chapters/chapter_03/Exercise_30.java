@@ -1,8 +1,8 @@
-package chapters.chapter_02;
+package chapters.chapter_03;
 
-import java.util.Scanner;;
+import java.util.Scanner;
 
-public class Exercise_08 {
+public class Exercise_30 {
 
 	public static void main(String[] args) {
 
@@ -21,11 +21,18 @@ public class Exercise_08 {
 		long currentMin = totalMin % 60;
 		long currentHour = totalHour % 24;
 
-		currentHour += gmt;
-
-		System.out.println("Your current time is " + currentHour + " : " + currentMin + " : " + currentSec);
 		input.close();
 
+		currentHour += gmt;
+
+		if (currentHour > 12) {
+			currentHour -= 12;
+			System.out.println("Your current time is " + currentHour + " : " + currentMin + " : " + currentSec + "PM.");
+		} else {
+
+			System.out.println("Your current time is " + currentHour + " : " + currentMin + " : " + currentSec + "AM.");
+
+		}
 	}
 
 }

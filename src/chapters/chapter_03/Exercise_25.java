@@ -41,5 +41,3 @@ public class Exercise_25 {
 	}
 
 }
-
-
