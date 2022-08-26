@@ -9,7 +9,7 @@ public class Exercise_18 {
 		a = 1;
 		b = 2;
 		System.out.println(a + "    " + b + "    " + (int) Math.pow(a, b));
-		a = ++a;
+		a = a++;
 		b = ++b;
 		System.out.println(a + "    " + b + "    " + (int) Math.pow(a, b));
 		a = ++a;
