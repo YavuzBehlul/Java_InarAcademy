@@ -1,5 +1,5 @@
 package chapters.chapter_03;
-
+//HELP ME !!!!!!!!!!!!!!!!!
 import java.util.Scanner;
 
 public class Exercise_25 {
@@ -24,10 +24,10 @@ public class Exercise_25 {
 		a = (y1 - y2);
 		b = -(x1 - x2);
 		c = (y3 - y4);
-		d = -(x3 - x4)1;
+		d = -(x3 - x4);
 		
 
-		if ( < 0.000000001) {
+		if ( < ) {
 			System.out.println("The equation has no solution because the lines are parallel.");
 
 		} else {

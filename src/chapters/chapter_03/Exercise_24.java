@@ -1,6 +1,6 @@
 package chapters.chapter_03;
 
-// i use random method
+// i use Random method
 import java.util.Random;
 
 public class Exercise_24 {

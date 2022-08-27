@@ -10,16 +10,16 @@ public class Exercise_18 {
 		b = 2;
 		System.out.println(a + "    " + b + "    " + (int) Math.pow(a, b));
 		a = a++;
-		b = ++b;
+		b = b++;
 		System.out.println(a + "    " + b + "    " + (int) Math.pow(a, b));
-		a = ++a;
-		b = ++b;
+		a = a++;
+		b = b++;
 		System.out.println(a + "    " + b + "    " + (int) Math.pow(a, b));
-		a = ++a;
-		b = ++b;
+		a = a++;
+		b = b++;
 		System.out.println(a + "    " + b + "    " + (int) Math.pow(a, b));
-		a = ++a;
-		b = ++b;
+		a = a++;
+		b = b++;
 		System.out.println(a + "    " + b + "    " + (int) Math.pow(a, b));
 
 	}
