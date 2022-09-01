@@ -1,4 +1,4 @@
-package W1;
+package chapters.chapter_01;
 
 public class AverageSpeedInMile {
 

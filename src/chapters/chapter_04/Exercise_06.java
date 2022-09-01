@@ -41,13 +41,17 @@ public class Exercise_06 {
                 + (y1 - y3) * (y1 - y3));
         double c = Math.sqrt((x1 - x2) * (x1 - x2)
                 + (y1 - y2) * (y1 - y2));
-
         
-
-
         
-        System.out.println("The three angles are " +
-                Math.round(A * 100) / 100.0 + " " + Math.round(B * 100) / 100.0 + " " +
+        double A = Math.toDegrees(Math.acos((a * a - b * b - c * c)
+                / (-2 * b * c)));
+        double B = Math.toDegrees(Math.acos((b * b - a * a - c * c)
+                / (-2 * a * c)));
+        double C = Math.toDegrees(Math.acos((c * c - b * b - a * a)
+                / (-2 * a * b)));
+        
+        System.out.println("The three angles are " + "A: " +
+                Math.round(A * 100) / 100.0 + " " + "B: " + Math.round(B * 100) / 100.0 + " " + "C: " +
                 Math.round(C * 100) / 100.0);
 
 	}
