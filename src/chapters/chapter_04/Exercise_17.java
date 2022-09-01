@@ -8,8 +8,8 @@ public class Exercise_17 {
 		
 		Scanner input = new Scanner(System.in);
 		
-//		System.out.print("Enter a year: ");
-//		int year = input.nextInt();
+		System.out.print("Enter a year: ");
+		int year = input.nextInt();
 
 		System.out.println("Enter the month: ");
 		String monthStr = input.nextLine();

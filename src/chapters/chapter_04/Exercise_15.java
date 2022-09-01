@@ -47,6 +47,7 @@ public class Exercise_15 {
 		}
 
 		System.out.println("The corresponding number is: " + number);
+		input.close();
 	}
 
 }
