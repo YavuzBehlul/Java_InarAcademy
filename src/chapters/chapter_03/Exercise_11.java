@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Exercise_11 {
 
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 
 		System.out.print("Enter the month as an number from 1 to 12: ");
-		int month = in.nextInt();
+		int month = input.nextInt();
 
 		System.out.print("Enter the year: ");
-		int year = in.nextInt();
+		int year = input.nextInt();
 
 		String days = "";
 
@@ -58,7 +58,7 @@ public class Exercise_11 {
 			break;
 		}
 		System.out.println(year + " " + days);
-		in.close();
+		input.close();
 	}
 
 }
