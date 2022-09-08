@@ -7,6 +7,7 @@ public class Exercise_17 {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
+		
 		System.out.println("Enter the number of lines: ");
 
 		int linesNumber = input.nextInt();
@@ -26,6 +27,7 @@ public class Exercise_17 {
 			}
 			System.out.println();
 		}
+		input.close();
 	}
 
 }
