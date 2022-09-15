@@ -32,6 +32,7 @@ public class Exercise_45 {
 		double square = Math.pow(dividing,0.5);
 		double result = square / (9.0);
 		System.out.println(result);
+		input.close();
 	}
 
 }

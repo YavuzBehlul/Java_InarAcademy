@@ -11,9 +11,10 @@ public class Exercise_01 {
 
 		Scanner input = new Scanner(System.in);
 
-		System.out.println("Enter an integer,(The program ends if you enter 0): ");
-
+		System.out.println(
+				"***Count Positive and Negative Number and Compute the Average of Number***\n Enter an integer:\n(end==0): ");
 		int number = input.nextInt();
+		
 		if (number == 0) {
 			System.out.println("No numbers entered except 0");
 			System.exit(1);

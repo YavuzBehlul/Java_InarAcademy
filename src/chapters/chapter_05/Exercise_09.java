@@ -6,25 +6,25 @@ public class Exercise_09 {
 
 	public static void main(String[] args) {
 
-		double highScore = 0;
-		double secondHigh = 0;
-
-		String highName = "";
+		double firstScore = 0;
+		double secondScore = 0;
+		double tempScore = 0;
+		
+		String firstName = "";
 		String secondName = "";
 		String tempName = "";
-		double tempScore = 0;
+		
 
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Enter the number of students: ");
-
 		int numberStudents = input.nextInt();
 
 		System.out.print("Enter a students name: ");
-		highName = input.next();
+		firstName = input.next();
 
 		System.out.print("Enter the students score: ");
-		highScore = input.nextDouble();
+		firstScore = input.nextDouble();
 
 		while (numberStudents > 1) {
 
@@ -34,26 +34,26 @@ public class Exercise_09 {
 			System.out.print("Enter the students score: ");
 			tempScore = input.nextDouble();
 
-			if (tempScore > highScore) {
-				secondHigh = highScore;
-				secondName = highName;
-				highScore = tempScore;
-				highName = tempName;
+			if (tempScore > firstScore) {
+				secondScore = firstScore;
+				secondName = firstName;
+				firstScore = tempScore;
+				firstName = tempName;
 
 				numberStudents--;
 				continue;
 			}
 
-			if (tempScore < highScore && tempScore > secondHigh) {
-				secondHigh = tempScore;
+			if (tempScore < firstScore && tempScore > secondScore) {
+				secondScore = tempScore;
 				secondName = tempName;
 			}
 			numberStudents--;
 
 		}
-		System.out.println("The top two students are: ");
-		System.out.print(highName + "'s score of " + highScore + " and " 
-							+ secondName + "'s score of " + secondHigh);
+		System.out.println("The bets two students are " + firstName +" and " + secondName);
+		System.out.print(firstName + "'s score of " + firstScore + "\n" 
+							+ secondName + "'s score of " + secondScore);
 		input.close();
 
 	}
