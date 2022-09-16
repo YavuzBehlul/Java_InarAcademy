@@ -8,15 +8,15 @@ public class Exercise_34 {
 
 		int computerWins = 0;
 		int playerWins = 0;
-
-		while (playerWins != computerWins * 2 && computerWins != playerWins * 2
+		System.out.print("\nEnter 0 for scissor, 1 for rock, 2 for paper: ");
+		while (playerWins != computerWins + 2 && computerWins != playerWins + 2
 				|| playerWins == 0 && computerWins == 0) {
 
 			int computerChoice = (int) (Math.random() * 3);
 
 			Scanner input = new Scanner(System.in);
 
-			System.out.print("\nEnter 0 for scissor, 1 for rock, 2 for paper: ");
+			
 			int playerChoice = input.nextInt();
 
 			String gameStatus = "";
@@ -114,7 +114,7 @@ public class Exercise_34 {
 					.println("\nYou WON the game! " + "Player wins: " + playerWins + " Computer wins: " + computerWins);
 		} else {
 			System.out
-					.println("\nYou LOST the game! " + "User wins: " + playerWins + " Computer wins: " + computerWins);
+					.println("\nYou LOST the game! " + "Player wins: " + playerWins + " Computer wins: " + computerWins);
 
 		}
 
