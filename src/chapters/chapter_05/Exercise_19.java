@@ -8,7 +8,7 @@ public class Exercise_19 {
 		
 		int high = 0, low = 7;
 		
-        for (int i = 1; i <= 128; i += i) {
+        for (int i = 1; i <= 128; i *= 2) {
         	
             for (int space = 0; space < low; space++) {
                 System.out.print("    ");

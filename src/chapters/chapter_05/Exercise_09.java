@@ -26,7 +26,7 @@ public class Exercise_09 {
 		System.out.print("Enter the students score: ");
 		firstScore = input.nextDouble();
 
-		while (numberStudents > 1) {
+		while (numberStudents > 1) {// It can do with do-while
 
 			System.out.print("Enter a students name: ");
 			tempName = input.next();

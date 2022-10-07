@@ -1,4 +1,4 @@
-package chapters.chapter_05;
+ package chapters.chapter_05;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class Exercise_17 {
 			int shiftNumber = linesNumber - i;
 			
 			for (int k = 0; k < shiftNumber; k++) {
-				System.out.print("   ");
+				System.out.printf("%3s","");
 			}
 			for (int leftNumbers = i; leftNumbers > 1; leftNumbers--) {
 				System.out.printf("%3d", (leftNumbers));

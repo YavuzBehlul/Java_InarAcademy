@@ -10,6 +10,7 @@ public class Exercise_04 {
 		
         System.out.println("(Display an integer reversed)\n Enter and integer : ");
         int number = input.nextInt();
+        
         reverse(number);
         input.close();
     }

@@ -7,8 +7,10 @@ public class Exercise_02 {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
+		
 		System.out.println("Enter an integer for sum the digits: ");
 		long number = input.nextLong();
+		
 		System.out.println(sumDigits(number));
 		input.close();
 	}

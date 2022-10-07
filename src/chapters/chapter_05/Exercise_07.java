@@ -12,7 +12,7 @@ public class Exercise_07 {
 			tuition += tuition * 0.05;
 
 			if (year < 10) {
-				System.out.println((year + 1) + " annual tuition: " + Math.round(tuition));
+				System.out.println((year + 1) + "  annual tuition: " + Math.round(tuition));
 			} else {
 				total4Year += tuition;
 			}

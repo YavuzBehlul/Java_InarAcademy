@@ -14,16 +14,10 @@ public class Exercise_08 {
 		System.out.print("Enter the number of students: ");
 		int numberOfstudents = input.nextInt();
 
-		System.out.print("Enter a student name: ");
-		studentName = input.next();
-
-		System.out.print("Enter the students score: ");
-		highScore = input.nextDouble();
-
 		String tempName = "";
 		double tempScore = 0;
 
-		while (numberOfstudents > 1) {
+		while (numberOfstudents > 0) {
 
 			System.out.print("Enter a student name: ");
 			tempName = input.next();

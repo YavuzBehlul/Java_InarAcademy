@@ -6,10 +6,10 @@ public class Exercise_16 {
 
 	public static void main(String[] args) {
 
-		Scanner in = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 
 		System.out.println("Enter an integer: ");
-		int number = in.nextInt();
+		int number = input.nextInt();
 
 		for (int i = 2; number / i != 1;) {
 
@@ -29,7 +29,7 @@ public class Exercise_16 {
 		
 		System.out.print(number + ".");
 
-		in.close();
+		input.close();
 
 	}
 
